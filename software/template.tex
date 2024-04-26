@@ -1,0 +1,91 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Software CV
+% LaTeX Template
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[
+	%a4paper, % Uncomment for A4 paper size (default is US letter)
+	11pt, % Default font size, can use 10pt, 11pt or 12pt
+]{resume} % Use the resume class
+
+\usepackage{ebgaramond} % Use the EB Garamond font
+
+%------------------------------------------------
+
+\name{John Smith} % Your name to appear at the top
+
+% You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
+\address{(123)~$\cdot$~456~$\cdot$~7890 \\ john.smith@email.com} % Contact information
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+	\begin{rSubsection}{Google}{April 2015 - Present}{Senior Software Engineer}{Mountain View, CA}
+		\item Developed and maintained scalable back-end services for real-time data processing and analytics, leveraging technologies such as Node.js, Python, and Kafka. 
+		\item Designed and implemented efficient data pipelines that processed over 1 million transactions per day, facilitating timely insights for business decision-making.
+		\item Led the migration of monolithic services to a microservices architecture, strategically planning and executing the transition with a focus on minimizing downtime and maintaining data integrity.
+		\item Implemented Continuous Integration and Continuous Deployment (CI/CD) pipelines using Jenkins and Docker, which automated the software delivery process. 
+	\end{rSubsection}
+
+	\begin{rSubsection}{Microsoft}{July 2010 - March 2015}{Software Engineer}{Redmond, WA}
+		\item Designed and developed innovative features for Azure Cloud Services, including scalable APIs and serverless functions, which directly contributed to a 20\% increase in user adoption. 
+		\item Collaborated with cross-functional teams, including network engineers, database administrators, and UI/UX designers.
+		\item Optimized application performance by implementing rigorous testing and tuning strategies. Utilized profiling tools and performance benchmarks to identify bottlenecks, leading to optimizations that improved load times and efficiency. 
+		\item Developed a robust disaster recovery and data replication strategy across multiple geographic locations, significantly enhancing system resilience and uptime. 
+	\end{rSubsection}
+
+	\begin{rSubsection}{Amazon}{June 2008 - June 2010}{Junior Software Engineer}{San Francisco, CA}
+		\item Developed dynamic, responsive web applications using JavaScript, React, and Node.js, focusing on optimizing user experience and interface.
+		\item Designed, built, and maintained robust database systems using SQL and NoSQL technologies. 
+		\item Played a key role in a team that collaborated in a fast-paced startup environment to develop a SaaS product. 
+		\item Implemented advanced security measures, including OAuth and JWT for authentication and authorization.
+	\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+	
+	\textbf{University of Central Florida} \hfill \textit{Graduated May 2014} \\ 
+	B.S. in Computer Science \\
+	Minor in Software Engineering \smallskip \\
+	Overall GPA: 3.8 / 4.0
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills}
+
+	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
+		Languages & Java, C++, Python, JavaScript \\
+		Frameworks & React, Angular, .NET \\
+		Databases & MySQL, PostgreSQL, MongoDB, SQL, NoSQL \\
+		Tools & Docker, Kubernetes, Jenkins, Git, SVN, Vim, Emacs, Jenkins, Elasticsearch, Logstash, Kibana (ELK Stack) \\
+		Protocols & REST, SOAP, JSON, XML \\
+		Security & GDPR Compliance, Advanced Encryption, Access Control \\
+		Development Practices & Agile Methodologies, CI/CD, TDD
+	\end{tabular}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
