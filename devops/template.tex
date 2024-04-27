@@ -1,0 +1,85 @@
+
+
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{left=1.5cm, top=1.5cm, right=1.5cm, bottom=1.5cm}
+
+% Fonts and bullet points
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, topsep=0pt}
+
+\begin{document}
+
+\pagestyle{empty} % No page numbers
+
+% Custom commands
+\newcommand{\sectionline}{
+  \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+}
+
+% Header
+\begin{center}
+    {\Huge \textbf{John Doe}}\\
+    \textit +1234567890 \quad \textit john.doe@example.com \quad 
+     \quad \textit github.com/johndoe
+\end{center}
+
+\sectionline
+
+% Objective
+\section*{Objective}
+Seasoned DevOps Engineer with over 5 years of hands-on experience specializing in automating, scaling, and optimizing mission-critical deployments across diverse infrastructures. Highly skilled in leveraging a suite of configuration management tools and cloud services to drive operational excellence and innovation. Committed to deploying robust, scalable solutions and continuously enhancing system reliability and efficiency. A proactive problem-solver and team leader eager to tackle complex challenges and contribute to organizational success.
+
+% Experience
+\section*{Experience}
+\begin{itemize}
+
+\item \textbf{Senior DevOps Engineer}, Tech Solutions Inc., December 2021 - Present
+        \begin{itemize}
+            \item Directed a team of 5 DevOps engineers in the strategic deployment and ongoing maintenance of a robust multi-cloud infrastructure across AWS, Azure, and Google Cloud, resulting in a 20\% improvement in deployment efficiency and system resilience.
+            \item Spearheaded the design and implementation of continuous integration and continuous deployment (CI/CD) pipelines using Jenkins and Docker, which led to a significant reduction in rollback and failure rates by 25\% while enhancing the speed and reliability of software releases.
+            \item Developed and executed a comprehensive monitoring strategy using Prometheus and Grafana, improving system observability and reducing incident response times by 30\%.
+            \item Engineered automated scripts using Python and Bash to streamline deployment processes and configure network operations, achieving a 40\% reduction in manual workload and human error.
+            \item Collaborated closely with the cybersecurity team to reinforce infrastructure security measures, successfully mitigating potential security vulnerabilities and ensuring compliance with industry-standard security practices.
+        \end{itemize}
+
+  \item \textbf{DevOps Engineer}, Innovative Tech Ltd., January 2019 - November 2021
+        \begin{itemize}
+            \item Orchestrated the automation of build and deployment processes using Ansible and Terraform, which streamlined operations across multiple environments and reduced deployment times by 30\%, significantly accelerating project deliverables.
+            \item Enhanced security protocols by integrating advanced security measures into the CI/CD pipeline, utilizing tools like SonarQube for code analysis and Vault for secrets management, resulting in a 40\% reduction in security breaches and heightened data protection.
+            \item Developed custom Docker containers to standardize development environments and ensure consistency across local and production settings, improving developer productivity and application stability.
+            \item Led the initiative to adopt microservices architecture for major applications, involving Kubernetes for orchestration, which improved system scalability and fault isolation, thus enhancing overall service reliability.
+            \item Collaborated with cross-functional teams to implement agile practices, which optimized project management and increased the deployment frequency by 50\%, while maintaining high quality and meeting tight deadlines.
+        \end{itemize}
+
+\end{itemize}
+
+% Education
+\section*{Education}
+\begin{itemize}
+  \item \textbf{B.S. in Computer Science}, University XYZ, August 2015 - May 2019
+        \begin{itemize}
+            \item Cumulative GPA: 3.8/4.0
+            \item Relevant Coursework: Cloud Computing, Continuous Integration, Secure Programming
+        \end{itemize}
+\end{itemize}
+
+% Skills
+\section*{Skills}
+\begin{itemize}
+  \item \textbf{Programming Languages:} Python, Java, Node.js, Bash, PowerShell, Ruby
+  \item \textbf{DevOps Tools and Platforms:} 
+        \begin{itemize}
+            \item \textbf{Containerization and Orchestration:} Docker, Kubernetes, Docker Swarm
+            \item \textbf{Infrastructure as Code:} Ansible, Terraform, Pulumi, Chef, Puppet
+            \item \textbf{CI/CD Tools:} Jenkins, GitLab CI, CircleCI, Travis CI, Azure DevOps
+            \item \textbf{Cloud Platforms:} AWS, Azure, Google Cloud Platform, IBM Cloud
+            \item \textbf{Version Control:} Git, Subversion, Mercurial
+            \item \textbf{Monitoring Tools:} Prometheus, Grafana, Nagios, Splunk, Elastic Stack
+        \end{itemize}
+  \item \textbf{Other Technical Skills:} Agile methodologies, Network Security, Microservices, REST APIs, Load Balancing
+\end{itemize}
+
+\end{document}
+
