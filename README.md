@@ -4,7 +4,6 @@ Welcome to the LaTeX Resume Templates repository! This collection of LaTeX templ
 ## Features
 - Multiple Layouts: Choose from a variety of layouts tailored to different professional profiles and industries.
 - Customizable: Each template is fully customizable, allowing you to tweak colors, fonts, and more.
-- Easy to Use: Clear documentation on how to edit and compile the templates.
 
 ## Getting Started
 To use these templates, you'll need to have LaTeX installed on your computer. For detailed installation guides, please visit their [website](https://www.latex-project.org/get/).
@@ -23,8 +22,10 @@ To compile the templates into a PDF, run the following command in the directory 
 pdflatex your-resume-file.tex
 ```
 
+For the UI-UX resume you will need XeLaTeX:
+```bash
+xelatex your-resume-file.tex
+```
+
 ## Contributing
 Contributions are welcome! If you have improvements or new templates to add, please fork the repository and submit a pull request.
-
-## License
-This project is open source and available under the MIT License.
