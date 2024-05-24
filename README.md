@@ -1,5 +1,5 @@
 # LaTeX Resume Templates
-Welcome to the LaTeX Resume Templates repository! This collection of LaTeX templates is designed to help you craft a professional and visually appealing technical resume. Whether you're a recent graduate or an experienced professional, you'll find a template here that hopefully suits your needs.
+This collection of LaTeX templates is designed to help you craft a professional and visually appealing technical resume. Whether you're a recent graduate or an experienced professional, you'll find a template here that hopefully suits your needs.
 
 ## Features
 - Multiple Layouts: Choose from a variety of layouts tailored to different professional profiles and industries.
