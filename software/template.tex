@@ -1,10 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Medium Length Software CV
-% LaTeX Template
-%
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
@@ -13,6 +6,9 @@
 	11pt, % Default font size, can use 10pt, 11pt or 12pt
 ]{resume} % Use the resume class
 
+\usepackage{geometry}
+\geometry{left=0.25in,top=0.25in,right=0.25in,bottom=0.25in}
+
 \usepackage{ebgaramond} % Use the EB Garamond font
 
 %------------------------------------------------
@@ -20,7 +16,8 @@
 \name{John Smith} % Your name to appear at the top
 
 % You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
-\address{(123)~$\cdot$~456~$\cdot$~7890 \\ john.smith@email.com} % Contact information
+\address{(123)~$\cdot$~456~$\cdot$~7890 \\ New York City \\ john.smith@email.com} % Contact information
+\address{github.com/johndoe \\ linkedin.com/in/johndoe} % Links
 
 %----------------------------------------------------------------------------------------
 
@@ -32,28 +29,29 @@
 
 \begin{rSection}{Experience}
 
-	\begin{rSubsection}{Google}{April 2015 - Present}{Senior Software Engineer}{Mountain View, CA}
-		\item Developed and maintained scalable back-end services for real-time data processing and analytics, leveraging technologies such as Node.js, Python, and Kafka. 
-		\item Designed and implemented efficient data pipelines that processed over 1 million transactions per day, facilitating timely insights for business decision-making.
-		\item Led the migration of monolithic services to a microservices architecture, strategically planning and executing the transition with a focus on minimizing downtime and maintaining data integrity.
-		\item Implemented Continuous Integration and Continuous Deployment (CI/CD) pipelines using Jenkins and Docker, which automated the software delivery process. 
+	\begin{rSubsection}{Software company 1} {April 2015 - Present} {Senior Software Engineer} {Mountain View, CA}
+		\item Developed and maintained scalable back-end services for real-time data processing and analytics, using Node.js, Python, and Kafka, that processes over 1.5 million transactions daily, driving a 15\% reduction in data latency
+		\item Designed and implemented efficient data pipelines that processed over 1 million transactions per day, improving data processing speeds by 20\%, enabling faster business insights and improving decision-making efficiency
+		\item Led the migration of monolithic services to a microservices architecture, strategically planning and executing the transition with a focus on minimizing downtime and maintaining data integrity
+		\item Implemented CI/CD pipelines using Jenkins AzDo, resulting in a 50\% reduction in deployment errors and cutting release times by 35\%
 	\end{rSubsection}
 
-	\begin{rSubsection}{Microsoft}{July 2010 - March 2015}{Software Engineer}{Redmond, WA}
-		\item Designed and developed innovative features for Azure Cloud Services, including scalable APIs and serverless functions, which directly contributed to a 20\% increase in user adoption. 
-		\item Collaborated with cross-functional teams, including network engineers, database administrators, and UI/UX designers.
-		\item Optimized application performance by implementing rigorous testing and tuning strategies. Utilized profiling tools and performance benchmarks to identify bottlenecks, leading to optimizations that improved load times and efficiency. 
-		\item Developed a robust disaster recovery and data replication strategy across multiple geographic locations, significantly enhancing system resilience and uptime. 
+	\begin{rSubsection}{Software company 2}{July 2010 - March 2015}{Software Engineer}{Redmond, WA}
+		\item Spearheaded the design and launch of new features for Azure Cloud Services, increasing platform user adoption by 20\% and generating \$500K in new revenue annually
+		\item Led cross-functional collaboration between development, networking, and UI teams to reduce system downtime by 15\% by implementing proactive monitoring, infrastructure improvements, and automated failover mechanisms, significantly improving user experience
+		\item Optimized application performance by implementing rigorous testing using DataDog and JMeter, leading to improved load times
+		\item Developed a robust disaster recovery and data replication strategy across multiple geographic locations with 99.99\% uptime
 	\end{rSubsection}
 
-	\begin{rSubsection}{Amazon}{June 2008 - June 2010}{Junior Software Engineer}{San Francisco, CA}
-		\item Developed dynamic, responsive web applications using JavaScript, React, and Node.js, focusing on optimizing user experience and interface.
-		\item Designed, built, and maintained robust database systems using SQL and NoSQL technologies. 
-		\item Played a key role in a team that collaborated in a fast-paced startup environment to develop a SaaS product. 
-		\item Implemented advanced security measures, including OAuth and JWT for authentication and authorization.
+	\begin{rSubsection}{Software company 3}{June 2008 - June 2010}{Junior Software Engineer}{San Francisco, CA}
+		\item Developed dynamic, responsive web applications using JavaScript, React, and Node.js, focusing on optimizing user experience resulting in reduced load time by 30\% and 15\% increase in user retention
+		\item Designed, built, and maintained robust database systems using SQL and NoSQL technologies to handle 100,000 users' data, improving database performance
+		\item Collaborated in a startup environment to launch a SaaS product, generating \$200K in revenue in the first six months post-launch 
+		\item Implemented advanced security measures & protocols, including OAuth and JWT, for authentication and authorization
 	\end{rSubsection}
 
 \end{rSection}
+
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
@@ -61,11 +59,27 @@
 
 \begin{rSection}{Education}
 	
-	\textbf{University of Central Florida} \hfill \textit{Graduated May 2014} \\ 
-	B.S. in Computer Science \\
-	Minor in Software Engineering \smallskip \\
+	\textbf{University of Software} \hfill \textit{Graduated May 2014} \\ 
+	B.S. in Computer Science - Minor in Software Engineering \smallskip \\
 	Overall GPA: 3.8 / 4.0
+
 \end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	Certification SECTION
+%----------------------------------------------------------------------------------------
+\begin{comment}
+
+\begin{rSection}{Certifications}
+
+-- AWS Certified Cloud Practitioner \\
+-- Azure 104: Microsoft Azure Administrator  \\
+-- Cisco Certified Network Associate (CCNA) \\
+
+\end{rSection}
+
+\end{comment}
 
 %----------------------------------------------------------------------------------------
 %	TECHNICAL STRENGTHS SECTION
